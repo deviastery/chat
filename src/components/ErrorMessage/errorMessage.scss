@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "LatoBlack";
+  src: url("../../assets/fonts/Lato-Black.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box-error-message {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  height: 100vh;
+  font-family: "LatoBlack";
+  font-size: 20px;
+}

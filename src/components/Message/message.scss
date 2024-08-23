@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "LatoBold";
+  src: url("../../assets/fonts/Lato-Bold.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("../../assets/fonts/Lato-Light.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.component-message {
+  margin: 5px;
+  display: flex;
+  gap: 10px;
+
+  &--my {
+    flex-direction: row-reverse;
+  }
+}
+
+.title-message {
+  margin: 0;
+  display: inline;
+  font-family: "LatoBold";
+  color: #201f1e;
+}
+
+.box-message-message {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-family: "LatoLight";
+
+  &--my {
+    background-color: #407ec929;
+  }
+}
+
+.message-message {
+  margin: 0;
+}
+
+.time-box-message {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5px;
+}

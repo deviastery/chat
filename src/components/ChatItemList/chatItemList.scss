@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "LatoBold";
+  src: url("../../assets/fonts/Lato-Bold.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("../../assets/fonts/Lato-Light.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.component-chat-item-list:not(.component-chat-item-list--select):hover {
+  background-color: #201f1e0a;
+}
+
+.component-chat-item-list {
+  width: 350px;
+  display: flex;
+  padding: 12px;
+  cursor: pointer;
+
+  &--select {
+    background-color: #407ec914;
+  }
+}
+
+.header-chat-item-list {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.title-chat-item-list {
+  margin: 0;
+  font-family: "LatoBold";
+  color: #201f1e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-chat-item-list {
+  width: 290px;
+  padding-left: 15px;
+}
+
+.time-chat-item-list {
+  font-family: "LatoLight";
+  color: #605e5c;
+  font-size: 13px;
+}
+
+.message-chat-item-list {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 5px;
+  font-family: "LatoLight";
+  color: #605e5c;
+}

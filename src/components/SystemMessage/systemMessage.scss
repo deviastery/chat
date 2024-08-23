@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "LatoBlack";
+  src: url("../../assets/fonts/Lato-Black.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box-system-message {
+  margin: 10px;
+  text-align: center;
+}
+
+.time-system-message {
+  font-family: "LatoBlack";
+  color: #201f1e;
+  font-size: 13px;
+  padding: 10px 15px;
+  background-color: #407ec914;
+  border-radius: 5px;
+}

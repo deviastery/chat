@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "LatoBlack";
+  src: url("../../assets/fonts/Lato-Black.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box-page-index {
+  margin: 0;
+  display: flex;
+  height: 100%;
+}
+
+.messages-page-index {
+  width: 100%;
+  border-left: 1px solid #c6c6c6;
+}
